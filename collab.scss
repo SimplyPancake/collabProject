@@ -1,0 +1,55 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import "https://www.w3schools.com/w3css/4/w3.css";
+@import "collab.css";
+@import "mixins&functions";
+//variables
+$lightGreen: rgba(47, 234, 43, 0.234);
+$lightRed: rgba(234, 47, 43, 0.234);
+$lightPurple: rgba(218, 112, 214, 0.234);
+$bodyBgMove: bgmove 3s infinite;
+//body
+body {
+  text-align: center;
+  -webkit-animation: $bodyBgMove;
+  -moz-animation: $bodyBgMove;
+  animation: $bodyBgMove;
+}
+@include keyframes(bgmove) {
+  0% {
+    @include backgroundPng("fortnitePng", no-repeat, 2000px 640px)
+  }
+  50% {
+    background-color: $lightGreen;
+  }
+  100% {
+    background-color: $lightPurple;
+  }
+}
+//swal-buttons
+.swal-button--confirm {
+  background-color: green;
+}
+.swal-button--cancel {
+  background-color: red;
+}
+//swal-overlay
+.swal-overlay {
+  background-color: rgba(0, 255, 0, 0.4987)
+}
+//search button
+#search-button-left {
+  transform: translate(300px, 10px);
+}
+//languageChange
+#lang-left {
+  transform: translateX(1000px);
+}
+#arabicLang, #chineseLang, #dutchLang, #englishLang, #hindiLang, #japaneseLang, #urduLang {
+  color: grey;
+  &:hover {
+  color: green;
+  background-color: $lightGreen;
+  }
+}

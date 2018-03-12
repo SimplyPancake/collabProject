@@ -1,0 +1,72 @@
+@mixin backgroundPng($image: false, $repeat: "repeat", $size: "auto") {
+  @if $image == false {
+  background-color: rgba(255, 0, 0, 0.437);
+}
+@else {
+  background-image: url(#{$image}.png);
+  }
+  @if $repeat == "repeat" {
+    background-repeat: repeat;
+  } @else {
+    background-repeat: $repeat;
+  }
+  @if $size == "auto" {
+    background-size: auto;
+  } @else {
+    background-size: $size;
+  }
+};
+@mixin backgroundJpg($image: false, $repeat: "repeat", $size: "auto") {
+  @if $image == false {
+  background-color: rgba(255, 0, 0, 0.437);
+}
+@else {
+  background-image: url(#{$image}.jpg);
+  }
+  @if $repeat == "repeat" {
+    background-repeat: repeat;
+  } @else {
+    background-repeat: $repeat;
+  }
+  @if $size == "auto" {
+    background-size: auto;
+  } @else {
+    background-size: $size;
+  }
+};
+@mixin backgroundSvg($image: false, $repeat: "repeat", $size: "auto") {
+  @if $image == false {
+  background-color: rgba(255, 0, 0, 0.437);
+}
+@else {
+  background-image: url(#{$image}.svg);
+  }
+  @if $repeat == "repeat" {
+    background-repeat: repeat;
+  } @else {
+    background-repeat: $repeat;
+  }
+  @if $size == "auto" {
+    background-size: auto;
+  } @else {
+    background-size: $size;
+  }
+}
+@mixin backgroundGif($image: false, $repeat: "repeat", $size: "auto") {
+  @if $image == false {
+  background-color: rgba(255, 0, 0, 0.437);
+}
+@else {
+  background-image: url(#{$image}.gif);
+  }
+  @if $repeat == "repeat" {
+    background-repeat: repeat;
+  } @else {
+    background-repeat: $repeat;
+  }
+  @if $size == "auto" {
+    background-size: auto;
+  } @else {
+    background-size: $size;
+  }
+}
