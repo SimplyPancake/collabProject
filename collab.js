@@ -9,6 +9,9 @@ gameIcon["Minecraft"] = "MinecraftJpg.jpg";
 gameIcon["Roblox"] = "RobloxPng.png";
 gameIcon["Splatoon"] = "SplatoonPng.png";
 gameIcon["Fortnite"] = "fortniteJpg.jpg";
+
+//Proudly edited by Pancake
+
 function langArabic() {
 
 }
@@ -55,7 +58,7 @@ function search() {
     //Checking if gamesearch is in the gameList
     var isInList = gameList.indexOf(gameSearch)
     if (isInList !== -1) {
-    //If isInList does not equal one, the game searched is in the list
+    //If isInList does not equal -1, the game searched is in the list
     swal({
       closeOnClickOutside: false,
       closeOnEsc: false,
@@ -66,7 +69,7 @@ function search() {
     }
 //-------------------------------------------------------------
     else if (!gameSearch) {
-     swal.stopLoading()
+     swal.stopLoading();
  }
     else {
       swal({
