@@ -1,12 +1,12 @@
-var gameList = ["Minecraft", "Splatoon", "Roblox", "Fortnite", "FNAF5"];
+var gameList = ["Minecraft", "Splatoon", "Roblox"];
 var gameDesc = [];
-gameDesc["Minecraft"] = "Minecraft is a sandbox video game created and designed by Swedish game designer Markus "Notch" Persson, and later fully developed and published by Mojang. The creative and building aspects of Minecraft allow players to build with a variety of different cubes in a 3D procedurally generated world. Other activities in the game include exploration, resource gathering, crafting, and combat.";
+gameDesc["Minecraft"] = "Minecraft is a sandbox video game created and designed by Swedish game designer Markus 'Notch' Persson, and later fully developed and published by Mojang. The creative and building aspects of Minecraft allow players to build with a variety of different cubes in a 3D procedurally generated world. Other activities in the game include exploration, resource gathering, crafting, and combat.";
 gameDesc["Roblox"] = "Roblox is the world's largest social platform for play. Every month, over 60 million active players imagine, build, and play together within immersive 3D worlds.";
-gameDesc["Splatoon"] = "Splatoon is a third-person shooter video game developed and published by Nintendo for the Wii U, which was released worldwide in May 2015. The game centers around characters known as Inklings—beings that can transform between humanoid and squid forms, and hide or swim through colored ink sprayed on surfaces using gun, bucket, or brush-based weaponry. Splatoon features several game modes, including 4-on-4 online multiplayer, and a single player campaign."
+gameDesc["Splatoon"] = "Splatoon is a third-person shooter video game developed and published by Nintendo for the Wii U, which was released worldwide in May 2015. The game centers around characters known as Inklings—beings that can transform between humanoid and squid forms, and hide or swim through colored ink sprayed on surfaces using gun, bucket, or brush-based weaponry. Splatoon features several game modes, including 4-on-4 online multiplayer, and a single player campaign.";
 var gameIcon = []
-gameIcon["Minecraft"] = "MinecraftJpg.jpg"
-gameIcon["Roblox"] = "RobloxPng.png"
-gameIcon["Splatoon"] = "SplatoonPng.png"
+gameIcon["Minecraft"] = "MinecraftJpg.jpg";
+gameIcon["Roblox"] = "RobloxPng.png";
+gameIcon["Splatoon"] = "SplatoonPng.png";
 
 function langArabic() {
 
