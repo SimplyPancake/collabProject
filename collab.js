@@ -66,7 +66,7 @@ function search() {
     }
 //-------------------------------------------------------------
     else if (!gameSearch) {
-     swal.stopLoading()        
+     swal.stopLoading()
  }
     else {
       swal({
