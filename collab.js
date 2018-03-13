@@ -1,3 +1,7 @@
+var gameList = ["Minecraft", "Splatoon", "Roblox", "Fortnite", "FNAF5"];
+var gameDesc = [];
+gameDesc[Minecraft] = "Here's a Documentation on Minecraft";
+
 function langArabic() {
 
 }
@@ -40,6 +44,13 @@ function search() {
     },
     buttons: ["Dismiss", true],
   }).then((gameSearch) => {
+
+    //Checking if gamesearch is in the gameList
+    var isInList = gameList.indexOf(gameSearch)
+    if (isInList !== -1) {
+    //If isInList does not equal one, the game searched is in the list
+    }
+
     if ((gameSearch == "Minecraft") || (gameSearch == "minecraft")) { //Added the ability to search in lowercase
       swal({
         closeOnClickOutside: false,
@@ -48,7 +59,8 @@ function search() {
         text: "Here's a Documentation on Minecraft",
         icon: "MinecraftJpg.jpg"
       })
-    } else if ((gameSearch == "Roblox") || (gameSearch == "roblox")) { //Added the ability to search in lowercase
+    }
+    else if ((gameSearch == "Roblox") || (gameSearch == "roblox")) { //Added the ability to search in lowercase
       swal({
         closeOnClickOutside: false,
         closeOnEsc: false,
