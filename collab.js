@@ -65,6 +65,9 @@ function search() {
     })
     }
 //-------------------------------------------------------------
+    else if (!gameSearch) {
+     swal.stopLoading()        
+ }
     else {
       swal({
         closeOnClickOutside: false,
