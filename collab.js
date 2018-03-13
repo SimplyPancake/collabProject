@@ -87,7 +87,7 @@ function search() {
                 title: "Roblox",
                 icon: "RobloxPng.png"
               })
-            } else if (gameSearch == "Splatoon") {
+            } else if ((gameSearch == "Splatoon") || (gameSearch == "splatoon")) {
               swal({
                 title: "Splatoon",
                 icon

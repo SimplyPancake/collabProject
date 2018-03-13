@@ -7,54 +7,78 @@ body {
   text-align: center;
   -webkit-animation: bgmove 3s infinite;
   -moz-animation: bgmove 3s infinite;
-  animation: bgmove 3s infinite; }
+  animation: bgmove 3s infinite;
+}
 
 @-webkit-keyframes bgmove {
   0% {
     background-image: url(fortnitePng.png);
     background-repeat: no-repeat;
-    background-size: 2000px 640px; }
+    background-size: 2000px 640px;
+  }
   50% {
-    background-color: rgba(47, 234, 43, 0.234); }
+    background-color: rgba(47, 234, 43, 0.234);
+  }
   100% {
-    background-color: rgba(218, 112, 214, 0.234); } }
+    background-color: rgba(218, 112, 214, 0.234);
+  }
+}
+
 @-moz-keyframes bgmove {
   0% {
     background-image: url(fortnitePng.png);
     background-repeat: no-repeat;
-    background-size: 2000px 640px; }
+    background-size: 2000px 640px;
+  }
   50% {
-    background-color: rgba(47, 234, 43, 0.234); }
+    background-color: rgba(47, 234, 43, 0.234);
+  }
   100% {
-    background-color: rgba(218, 112, 214, 0.234); } }
+    background-color: rgba(218, 112, 214, 0.234);
+  }
+}
+
 @keyframes bgmove {
   0% {
     background-image: url(fortnitePng.png);
     background-repeat: no-repeat;
-    background-size: 2000px 640px; }
+    background-size: 2000px 640px;
+  }
   50% {
-    background-color: rgba(47, 234, 43, 0.234); }
+    background-color: rgba(47, 234, 43, 0.234);
+  }
   100% {
-    background-color: rgba(218, 112, 214, 0.234); } }
+    background-color: rgba(218, 112, 214, 0.234);
+  }
+}
+
 .swal-button--confirm {
-  background-color: green; }
+  background-color: green;
+}
 
 .swal-button--cancel {
-  background-color: red; }
+  background-color: red;
+}
 
 .swal-overlay {
-  background-color: rgba(0, 255, 0, 0.4987); }
+  background-color: rgba(0, 255, 0, 0.4987);
+}
 
 #search-button-left {
-  transform: translate(300px, 10px); }
+  transform: translate(300px, 10px);
+}
 
 #lang-left {
-  transform: translateX(1000px); }
+  transform: translateX(1000px);
+}
 
 #arabicLang, #chineseLang, #dutchLang, #englishLang, #hindiLang, #japaneseLang, #urduLang {
-  color: grey; }
-  #arabicLang:hover, #chineseLang:hover, #dutchLang:hover, #englishLang:hover, #hindiLang:hover, #japaneseLang:hover, #urduLang:hover {
-    color: green;
-    background-color: rgba(47, 234, 43, 0.234); }
+  color: grey;
+}
+
+#arabicLang:hover, #chineseLang:hover, #dutchLang:hover, #englishLang:hover, #hindiLang:hover, #japaneseLang:hover, #urduLang:hover {
+  color: green;
+  background-color: rgba(47, 234, 43, 0.234);
+}
 
 /*# sourceMappingURL=collabs.css.map */
