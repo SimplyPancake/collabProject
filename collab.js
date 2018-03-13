@@ -6,11 +6,11 @@ gameDesc["Splatoon"] = "Splatoon is a third-person shooter video game developed 
 gameDesc["Fortnite"] = "Fortnite is a co-op sandbox survival game developed by Epic Games and People Can Fly, with Epic Games also publishing the game. The game was released as a paid early access title for Microsoft Windows, macOS, PlayStation 4 and Xbox One on July 25, 2017, with a full free-to-play release expected in 2018.";
 gameDesc["Portal"] = "Portal is a puzzle-platform video game developed and published by Valve Corporation. It was released in a bundle package called The Orange Box for Microsoft Windows, Xbox 360 and PlayStation 3 in 2007. The game has since been ported to other systems, including OS X, Linux, and Android."
 var gameIcon = []
-gameIcon["Minecraft"] = "MinecraftJpg.jpg";
-gameIcon["Roblox"] = "RobloxPng.png";
-gameIcon["Splatoon"] = "SplatoonPng.png";
-gameIcon["Fortnite"] = "fortniteJpg.jpg";
-gameIcon["Portal"] = "portalJpg.jpg"
+gameIcon["Minecraft"] = "media/MinecraftJpg.jpg";
+gameIcon["Roblox"] = "media/RobloxPng.png";
+gameIcon["Splatoon"] = "media/SplatoonPng.png";
+gameIcon["Fortnite"] = "media/fortniteJpg.jpg";
+gameIcon["Portal"] = "media/portalJpg.jpg"
 
 //Proudly edited by Pancake
 

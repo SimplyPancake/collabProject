@@ -17,7 +17,7 @@ body {
 }
 @include keyframes(bgmove) {
   0% {
-    @include backgroundPng("fortnitePng", no-repeat, 2000px 640px)
+    @include backgroundPng("media/fortnitePng", no-repeat, 2000px 640px)
   }
 
   50% {

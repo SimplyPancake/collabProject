@@ -12,7 +12,7 @@ body {
 
 @-webkit-keyframes bgmove {
   0% {
-    background-image: url(fortnitePng.png);
+    background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px;
   }
@@ -26,7 +26,7 @@ body {
 
 @-moz-keyframes bgmove {
   0% {
-    background-image: url(fortnitePng.png);
+    background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px;
   }
@@ -40,7 +40,7 @@ body {
 
 @keyframes bgmove {
   0% {
-    background-image: url(fortnitePng.png);
+    background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px;
   }
