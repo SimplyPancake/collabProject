@@ -1,8 +1,12 @@
 var gameList = ["Minecraft", "Splatoon", "Roblox", "Fortnite", "FNAF5"];
 var gameDesc = [];
-gameDesc["Minecraft"] = "Here's a Documentation on Minecraft";
+gameDesc["Minecraft"] = "Minecraft is a sandbox video game created and designed by Swedish game designer Markus "Notch" Persson, and later fully developed and published by Mojang. The creative and building aspects of Minecraft allow players to build with a variety of different cubes in a 3D procedurally generated world. Other activities in the game include exploration, resource gathering, crafting, and combat.";
+gameDesc["Roblox"] = "Roblox is the world's largest social platform for play. Every month, over 60 million active players imagine, build, and play together within immersive 3D worlds.";
+gameDesc["Splatoon"] = "Splatoon is a third-person shooter video game developed and published by Nintendo for the Wii U, which was released worldwide in May 2015. The game centers around characters known as Inklings—beings that can transform between humanoid and squid forms, and hide or swim through colored ink sprayed on surfaces using gun, bucket, or brush-based weaponry. Splatoon features several game modes, including 4-on-4 online multiplayer, and a single player campaign."
 var gameIcon = []
 gameIcon["Minecraft"] = "MinecraftJpg.jpg"
+gameIcon["Roblox"] = "RobloxPng.png"
+gameIcon["Splatoon"] = "SplatoonPng.png"
 
 function langArabic() {
 
@@ -59,87 +63,13 @@ function search() {
       icon: gameIcon[gameSearch]
     })
     }
-    //
-    // if ((gameSearch == "Minecraft") || (gameSearch == "minecraft")) { //Added the ability to search in lowercase
-    //   swal({
-    //     closeOnClickOutside: false,
-    //     closeOnEsc: false,
-    //     title: "Minecraft",
-    //     text: "Here's a Documentation on Minecraft",
-    //     icon: "MinecraftJpg.jpg"
-    //   })
-    // }
-    // else if ((gameSearch == "Roblox") || (gameSearch == "roblox")) { //Added the ability to search in lowercase
-    //   swal({
-    //     closeOnClickOutside: false,
-    //     closeOnEsc: false,
-    //     title: "Roblox",
-    //     icon: "RobloxPng.png"
-    //   })
-    // }
-
 //-------------------------------------------------------------
-
-    // else if (gameSearch == "") {
-    //   swal("Input = Nothing", "You have to type something!!", "warning", {
-    //     buttons: ["Dismiss", true]
-    //   }).then((inputNothing) => {
-    //     if (inputNothing) {
-    //       swal({
-    //         text: "Search for a game eg. Minecraft",
-    //         closeOnClickOutside: false,
-    //         closeOnEsc: false,
-    //         content: {
-    //           element: "input",
-    //           attributes: {
-    //             placeholder: "Search!"
-    //           }
-    //         },
-    //         buttons: ["Dismiss", true],
-    //       }).then((gameSearch) => {
-    //         if ((gameSearch == "Minecraft") || (gameSearch == "minecraft")) {
-    //           swal({
-    //             closeOnClickOutside: false,
-    //             closeOnEsc: false,
-    //             title: "Minecraft",
-    //             text: "Here's a Documentation on Minecraft",
-    //             icon: "MinecraftJpg.jpg"
-    //           })
-    //         } else if ((gameSearch == "Roblox") || (gameSearch == "roblox")) {
-    //           swal({
-    //             closeOnClickOutside: false,
-    //             closeOnEsc: false,
-    //             title: "Roblox",
-    //             icon: "RobloxPng.png"
-    //           })
-    //         } else if ((gameSearch == "Splatoon") || (gameSearch == "splatoon")) {
-    //           swal({
-    //             title: "Splatoon",
-    //             icon
-    //           })
-    //         } else if (gameSearch == "") {
-    //           swal("Input=Nothing, AGAIN", "You have to type something!!", "warning", {
-    //             buttons: ["Dismiss", true]
-    //           })
-    //         } else {
-    //           swal({
-    //             closeOnClickOutside: false,
-    //             closeOnEsc: false,
-    //             title: "Error 404",
-    //             text: "Sorry, we couldn't get what you asked for!",
-    //             icon: "error"
-    //           })
-    //         }
-    //       })
-    //     }
-    //   })
-    // }
     else {
       swal({
         closeOnClickOutside: false,
         closeOnEsc: false,
         title: "Error 404",
-        text: "Sorry, we couldn't get what you asked for!",
+        text: "Sorry, we couldn't get what you asked for! Remember, this site is CAPS SENSITIVE!",
         icon: "error"
       })
     }
