@@ -1,4 +1,4 @@
-var gameList = ["Minecraft", "Splatoon", "Roblox"];
+var gameList = ["Minecraft", "Splatoon", "Roblox", "Fortnite"];
 var gameDesc = [];
 gameDesc["Minecraft"] = "Minecraft is a sandbox video game created and designed by Swedish game designer Markus 'Notch' Persson, and later fully developed and published by Mojang. The creative and building aspects of Minecraft allow players to build with a variety of different cubes in a 3D procedurally generated world. Other activities in the game include exploration, resource gathering, crafting, and combat.";
 gameDesc["Roblox"] = "Roblox is the world's largest social platform for play. Every month, over 60 million active players imagine, build, and play together within immersive 3D worlds.";
@@ -8,7 +8,7 @@ var gameIcon = []
 gameIcon["Minecraft"] = "MinecraftJpg.jpg";
 gameIcon["Roblox"] = "RobloxPng.png";
 gameIcon["Splatoon"] = "SplatoonPng.png";
-gameIcon["Fortnite"] = "fortnitePng.png";
+gameIcon["Fortnite"] = "fortniteJpg.jpg";
 function langArabic() {
 
 }
