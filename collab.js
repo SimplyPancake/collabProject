@@ -8,6 +8,7 @@ var gameIcon = []
 gameIcon["Minecraft"] = "MinecraftJpg.jpg";
 gameIcon["Roblox"] = "RobloxPng.png";
 gameIcon["Splatoon"] = "SplatoonPng.png";
+gameIcon["Fortnite"] = "fortniteJpg.jpg";
 function langArabic() {
 
 }
