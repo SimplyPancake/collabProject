@@ -86,7 +86,7 @@ swal({
 })
 }
 else if (!gameSearch) {
-swal.stopLoading()
+swal.close()
 } else {
       swal({
         closeOnClickOutside: false,
