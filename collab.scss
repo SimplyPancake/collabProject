@@ -17,11 +17,10 @@ body {
 }
 @include keyframes(bgmove) {
   0% {
-<<<<<<< HEAD
+
     @include backgroundPng("media/fortnitePng", no-repeat, 2000px 640px)
 =======
     @include backgroundPng("media/RobloxPng", no-repeat, 2000px 640px)
->>>>>>> 7412b0a482914a1797c7de88f85f28adb215e6c9
   }
 
   50% {
@@ -66,7 +65,4 @@ $langList: arabicLang, chineseLang, dutchLang, englishLang, hindiLang, japaneseL
     background-color: $lightGreen;
   }
 }
-<<<<<<< HEAD
-=======
 }
->>>>>>> 7412b0a482914a1797c7de88f85f28adb215e6c9
