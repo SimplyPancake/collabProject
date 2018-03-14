@@ -5,10 +5,10 @@ gameDesc["Roblox"] = "Roblox is the world's largest social platform for play. Ev
 gameDesc["Splatoon"] = "Splatoon is a third-person shooter video game developed and published by Nintendo for the Wii U, which was released worldwide in May 2015. The game centers around characters known as Inklings—beings that can transform between humanoid and squid forms, and hide or swim through colored ink sprayed on surfaces using gun, bucket, or brush-based weaponry. Splatoon features several game modes, including 4-on-4 online multiplayer, and a single player campaign.";
 gameDesc["Fortnite"] = "Fortnite is a co-op sandbox survival game developed by Epic Games and People Can Fly, with Epic Games also publishing the game. The game was released as a paid early access title for Microsoft Windows, macOS, PlayStation 4 and Xbox One on July 25, 2017, with a full free-to-play release expected in 2018.";
 var gameIcon = []
-gameIcon["Minecraft"] = "MinecraftJpg.jpg";
-gameIcon["Roblox"] = "RobloxPng.png";
-gameIcon["Splatoon"] = "SplatoonPng.png";
-gameIcon["Fortnite"] = "fortniteJpg.jpg";
+gameIcon["Minecraft"] = "media/MinecraftJpg.jpg";
+gameIcon["Roblox"] = "media/RobloxPng.png";
+gameIcon["Splatoon"] = "media/SplatoonPng.png";
+gameIcon["Fortnite"] = "media/fortniteJpg.jpg";
 function langArabic() {
 
 }
