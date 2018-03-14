@@ -7,78 +7,102 @@ body {
   text-align: center;
   -webkit-animation: bgmove 3s infinite;
   -moz-animation: bgmove 3s infinite;
-  animation: bgmove 3s infinite;
-}
+  animation: bgmove 3s infinite; }
 
 @-webkit-keyframes bgmove {
   0% {
     background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
-    background-size: 2000px 640px;
-  }
+    background-size: 2000px 640px; }
   50% {
-    background-color: rgba(47, 234, 43, 0.234);
-  }
+    background-image: url(media/MinecraftJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; }
   100% {
-    background-color: rgba(218, 112, 214, 0.234);
-  }
-}
-
+    background-image: url(media/portalJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; } }
 @-moz-keyframes bgmove {
   0% {
     background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
-    background-size: 2000px 640px;
-  }
+    background-size: 2000px 640px; }
   50% {
-    background-color: rgba(47, 234, 43, 0.234);
-  }
+    background-image: url(media/MinecraftJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; }
   100% {
-    background-color: rgba(218, 112, 214, 0.234);
-  }
-}
-
+    background-image: url(media/portalJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; } }
 @keyframes bgmove {
   0% {
     background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
-    background-size: 2000px 640px;
-  }
+    background-size: 2000px 640px; }
   50% {
-    background-color: rgba(47, 234, 43, 0.234);
-  }
+    background-image: url(media/MinecraftJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; }
   100% {
-    background-color: rgba(218, 112, 214, 0.234);
-  }
-}
-
+    background-image: url(media/portalJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; } }
 .swal-button--confirm {
-  background-color: green;
-}
+  background-color: green; }
 
 .swal-button--cancel {
-  background-color: red;
-}
+  background-color: red; }
 
 .swal-overlay {
-  background-color: rgba(0, 255, 0, 0.4987);
-}
+  background-color: rgba(0, 255, 0, 0.4987); }
 
 #search-button-left {
-  transform: translate(300px, 10px);
-}
+  transform: translate(300px, 10px); }
 
 #lang-left {
-  transform: translateX(1000px);
-}
+  transform: translateX(1000px); }
 
-#arabicLang, #chineseLang, #dutchLang, #englishLang, #hindiLang, #japaneseLang, #urduLang {
-  color: grey;
-}
+#arabicLang {
+  color: grey; }
+  #arabicLang:hover {
+    color: green;
+    background-color: rgba(47, 234, 43, 0.234); }
 
-#arabicLang:hover, #chineseLang:hover, #dutchLang:hover, #englishLang:hover, #hindiLang:hover, #japaneseLang:hover, #urduLang:hover {
-  color: green;
-  background-color: rgba(47, 234, 43, 0.234);
-}
+#chineseLang {
+  color: grey; }
+  #chineseLang:hover {
+    color: green;
+    background-color: rgba(47, 234, 43, 0.234); }
+
+#dutchLang {
+  color: grey; }
+  #dutchLang:hover {
+    color: green;
+    background-color: rgba(47, 234, 43, 0.234); }
+
+#englishLang {
+  color: grey; }
+  #englishLang:hover {
+    color: green;
+    background-color: rgba(47, 234, 43, 0.234); }
+
+#hindiLang {
+  color: grey; }
+  #hindiLang:hover {
+    color: green;
+    background-color: rgba(47, 234, 43, 0.234); }
+
+#japaneseLang {
+  color: grey; }
+  #japaneseLang:hover {
+    color: green;
+    background-color: rgba(47, 234, 43, 0.234); }
+
+#urduLang {
+  color: grey; }
+  #urduLang:hover {
+    color: green;
+    background-color: rgba(47, 234, 43, 0.234); }
 
 /*# sourceMappingURL=collabs.css.map */
