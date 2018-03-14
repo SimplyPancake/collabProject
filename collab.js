@@ -72,7 +72,7 @@ function search() {
     })
     }
 //-------------------------------------------------------------
-<<<<<<< HEAD
+// <<<<<<< HEAD
     else if (!gameSearch) {
      swal.stopLoading();
  }
