@@ -1,5 +1,5 @@
-@import "../mixins&functions"; //variables
-@import "../all.scss";
+@import "mixins&functions"; //variables
+@import "all.scss";
 @include keyframes(bgmove) {
   0% {
     @include backgroundPng("../media/fortnitePng", no-repeat, 2000px 640px)
