@@ -21,11 +21,11 @@ body {
   }
 
   50% {
-    background-color: $lightGreen;
+    @include backgroundJpg("media/MinecraftJpg", no-repeat, 2000px 640px)
   }
 
   100% {
-    background-color: $lightPurple;
+    @include backgroundJpg("media/overwatchJpg", no-repeat, 2000px 640px)
   }
 }
 //swal-buttons

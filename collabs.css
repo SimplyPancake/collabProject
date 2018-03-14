@@ -15,27 +15,39 @@ body {
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   50% {
-    background-color: rgba(47, 234, 43, 0.234); }
+    background-image: url(media/MinecraftJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; }
   100% {
-    background-color: rgba(218, 112, 214, 0.234); } }
+    background-image: url(media/overwatchJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; } }
 @-moz-keyframes bgmove {
   0% {
     background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   50% {
-    background-color: rgba(47, 234, 43, 0.234); }
+    background-image: url(media/MinecraftJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; }
   100% {
-    background-color: rgba(218, 112, 214, 0.234); } }
+    background-image: url(media/overwatchJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; } }
 @keyframes bgmove {
   0% {
     background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   50% {
-    background-color: rgba(47, 234, 43, 0.234); }
+    background-image: url(media/MinecraftJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; }
   100% {
-    background-color: rgba(218, 112, 214, 0.234); } }
+    background-image: url(media/overwatchJpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 640px; } }
 .swal-button--confirm {
   background-color: green; }
 
