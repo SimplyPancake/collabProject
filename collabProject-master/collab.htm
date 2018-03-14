@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>#VideoGames4Life</title>
+  <link rel="shortcut icon" href="VideoGameIco.ico" />
+  <link rel="stylesheet" href="collabs.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-fixed-top w3-teal">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" id="video-games" href="#">Video Games</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" id="home">Home<i class="fa fa-home"></i></a></li>
+        <li class="dropdown" id="lang-left">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language
+        <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li onclick="langArabic()"><a id="arabicLang" href="#">Arabic</a></li>
+            <li onclick="langChinese()"><a id="chineseLang" href="#">Chinese</a></li>
+            <li onclick="langDutch()"><a id="dutchLang" href="#">Dutch</a></li>
+            <li onclick="langEnglish()"><a id="englishLang" href="#">English</a></li>
+            <li onclick="langHindi()"><a id="hindiLang" href="#">Hindi</a></li>
+            <li onclick="langJapanese()"><a id="japaneseLang" href="#">Japanese</a></li>
+            <li onclick="langUrdu()"><a id="urduLang" href="#">Urdu</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-success" id="search-button-left" onclick="search()">Search for a game!</button>
+    </div>
+  </nav>
+  </div>
+  <script src="collab.js"></script>
+</body>
+
+</html>
