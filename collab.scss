@@ -17,7 +17,7 @@ body {
 }
 @include keyframes(bgmove) {
   0% {
-    @include backgroundPng("fortnitePng", no-repeat, 2000px 640px)
+    @include backgroundPng("media/fortnitePng", no-repeat, 2000px 640px)
   }
 
   50% {
@@ -53,17 +53,13 @@ body {
   transform: translateX(1000px);
 }
 
-#arabicLang,
-#chineseLang,
-#dutchLang,
-#englishLang,
-#hindiLang,
-#japaneseLang,
-#urduLang {
+$langList: arabicLang, chineseLang, dutchLang, englishLang, hindiLang, japaneseLang, urduLang;
+@each $language in $langList {
+##{$language} {
   color: grey;
-
   &:hover {
     color: green;
     background-color: $lightGreen;
   }
+}
 }
