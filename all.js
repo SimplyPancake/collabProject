@@ -15,11 +15,11 @@ gameIcon["Portal"] = "media/portalJpg.jpg";
 gameIcon["Overwatch"] = "media/overwatchJpg.jpg"
 var gameDocsLink = [];
 gameDocsLink["Minecraft"] = "Docz/Minecraft.htm";
-gameDocsLink["Roblox"] = "";
-gameDocsLink["Splatoon"] = "";
-gameDocsLink["Fortnite"] = "";
-gameDocsLink["Portal"] = "";
-gameDocsLink["Overwatch"] = "";
+gameDocsLink["Roblox"] = "Docz/Roblox.htm";
+gameDocsLink["Splatoon"] = "Docz/Splatoon.htm";
+gameDocsLink["Fortnite"] = "Docz/Fortnite.htm";
+gameDocsLink["Portal"] = "Docz/Portal.htm";
+gameDocsLink["Overwatch"] = "Docz/Overwatch.htm";
 function langArabic() {
 
 }
@@ -72,11 +72,11 @@ function search() {
       title: gameSearch,
       text: gameDesc[gameSearch],
       icon: gameIcon[gameSearch]
+    }).then((gameInfo) => {
+      if (isInList !== -1 && gameInfo) {
+      window.location.href = gameDocsLink[gameSearch]
+      }
     })
-}
-//-------------------------------------------------------------
-else if (isInList !== -1 && gameSearch) {
-window.location.href = gameDocsLink[gameSearch]
 }
 else if (gameSearch == "") {
 swal({
