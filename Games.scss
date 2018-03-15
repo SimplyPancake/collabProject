@@ -1,0 +1,15 @@
+@import "mixins&functions"; //variables
+@import "all.scss";
+@include keyframes(bgmove) {
+  0% {
+    @include backgroundPng("../media/fortnitePng", no-repeat, 2000px 640px)
+  }
+
+  50% {
+    @include backgroundJpg("../media/MinecraftJpg", no-repeat, 2000px 640px)
+  }
+
+  100% {
+    @include backgroundJpg("../media/portalJpg", no-repeat, 2000px 640px)
+  }
+}
