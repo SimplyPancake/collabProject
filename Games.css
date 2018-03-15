@@ -67,41 +67,41 @@ body {
 
 @-webkit-keyframes bgmove {
   0% {
-    background-image: url(../media/fortnitePng.png);
+    background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   50% {
-    background-image: url(../media/MinecraftJpg.jpg);
+    background-image: url(media/MinecraftJpg.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   100% {
-    background-image: url(../media/portalJpg.jpg);
+    background-image: url(media/portalJpg.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 640px; } }
 @-moz-keyframes bgmove {
   0% {
-    background-image: url(../media/fortnitePng.png);
+    background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   50% {
-    background-image: url(../media/MinecraftJpg.jpg);
+    background-image: url(media/MinecraftJpg.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   100% {
-    background-image: url(../media/portalJpg.jpg);
+    background-image: url(media/portalJpg.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 640px; } }
 @keyframes bgmove {
   0% {
-    background-image: url(../media/fortnitePng.png);
+    background-image: url(media/fortnitePng.png);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   50% {
-    background-image: url(../media/MinecraftJpg.jpg);
+    background-image: url(media/MinecraftJpg.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 640px; }
   100% {
-    background-image: url(../media/portalJpg.jpg);
+    background-image: url(media/portalJpg.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 640px; } }
 
