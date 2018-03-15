@@ -5,6 +5,7 @@
   <title>Video-game Lookup</title>
   <link rel="shortcut icon" href="media/VideoGameIco.ico" />
   <link rel="stylesheet" href="collabs.css" />
+  <link rel="stylesheet" href="all.css" />
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
@@ -30,7 +31,7 @@
         <a class="navbar-brand" href="#"><p id="video-games">Video Games</p></a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#" id="home">Home<i class="fa fa-home"></i></a></li>
+        <li class="active"><a href="#home" id="home">Home<i class="fa fa-home"></i></a></li>
         <li class="dropdown" id="lang-left">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language
         <span class="caret"></span></a>
@@ -45,7 +46,7 @@
           </ul>
         </li>
       </ul>
-      <button type="button" class="btn btn-success" id="search-button-left" onclick="search()">Search for a game!</button>
+      <button type="button" class="btn btn-success" id="search-button-left" onclick="search()"><span>Search for a game!</span></button>
     </div>
   </nav>
   </div>

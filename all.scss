@@ -29,6 +29,29 @@ body {
 
 #search-button-left {
   transform: translate(300px, 10px);
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  &:after {
+    content: '\00bb';
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+  }
+ }
+ &:hover {
+   span {
+     padding-right: 10px;
+     &:after {
+       opacity: 1;
+       right: 0;
+     }
+   }
+ }
 }
 //languageChange
 

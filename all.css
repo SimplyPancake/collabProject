@@ -18,7 +18,24 @@ body {
   background-color: rgba(0, 255, 0, 0.4987); }
 
 #search-button-left {
-  transform: translate(300px, 10px); }
+  transform: translate(300px, 10px);
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer; }
+  #search-button-left span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s; }
+    #search-button-left span:after {
+      content: '\00bb';
+      opacity: 0;
+      top: 0;
+      transition: 0.5s; }
+  #search-button-left:hover span {
+    padding-right: 10px; }
+    #search-button-left:hover span:after {
+      opacity: 1;
+      right: 0; }
 
 #lang-left {
   transform: translateX(1000px); }
