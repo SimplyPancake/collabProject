@@ -92,3 +92,16 @@ swal.close()
     }
   })
 }
+$("nav#navbar").css({
+  "transform" : "translateY(-23px)"
+})
+$("nav#navbar").on("mouseenter", function() {
+  $(this).css({
+    "transform" : "translateY(0px)"
+  })
+})
+$("nav#navbar").on("mouseleave", function() {
+  $(this).css({
+    "transform" : "translateY(-23px)"
+  })
+})
