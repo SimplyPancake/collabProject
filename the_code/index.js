@@ -16,15 +16,15 @@ var data = {
 // Serves the html through URL
 app.use(express.static(publicPath));
 
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
   res.sendFile('home.html', {root: publicPath});
 });
 
-app.get('/groups', function(req, res){
+app.get('/groups', function(req, res) {
   res.sendFile('index.html', {root: publicPath});
 });
 
-app.get('/feed', function(req, res){
+app.get('/feed', function(req, res) {
   res.sendFile('feed.html', {root: publicPath});
 });
 
