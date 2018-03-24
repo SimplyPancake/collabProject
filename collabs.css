@@ -7,47 +7,30 @@ body {
   text-align: center;
   -webkit-animation: bgmove 3s infinite;
   -moz-animation: bgmove 3s infinite;
-  animation: bgmove 3s infinite; }
-
-@-webkit-keyframes bgmove {
-  0% {
-    background-image: url(media/fortnitePng.png);
-    background-repeat: no-repeat;
-    background-size: 2000px 640px; }
-  50% {
-    background-image: url(media/MinecraftJpg.jpg);
-    background-repeat: no-repeat;
-    background-size: 2000px 640px; }
-  100% {
-    background-image: url(media/portalJpg.jpg);
-    background-repeat: no-repeat;
-    background-size: 2000px 640px; } }
-@-moz-keyframes bgmove {
-  0% {
-    background-image: url(media/fortnitePng.png);
-    background-repeat: no-repeat;
-    background-size: 2000px 640px; }
-  50% {
-    background-image: url(media/MinecraftJpg.jpg);
-    background-repeat: no-repeat;
-    background-size: 2000px 640px; }
-  100% {
-    background-image: url(media/portalJpg.jpg);
-    background-repeat: no-repeat;
-    background-size: 2000px 640px; } }
+  animation: bgmove 3s infinite;
+}
 @keyframes bgmove {
   0% {
-    background-image: url(media/fortnitePng.png);
+    background: url(media/fortnitePng.png);
+    height:100px;
+    margin:0px;
     background-repeat: no-repeat;
-    background-size: 2000px 640px; }
+    background-size: cover;
+    background-attachment: fixed;}
   50% {
-    background-image: url(media/MinecraftJpg.jpg);
+    background: url(media/MinecraftJpg.jpg);
+    height:100px;
+    margin:0px;
     background-repeat: no-repeat;
-    background-size: 2000px 640px; }
+    background-size: cover;
+    background-attachment: fixed; }
   100% {
-    background-image: url(media/portalJpg.jpg);
+    background: url(media/portalJpg.jpg);
+    height:100px;
+    margin:0px;
     background-repeat: no-repeat;
-    background-size: 2000px 640px; } }
+    background-size: cover;
+    background-attachment: fixed; } }
 .swal-button--confirm {
   background-color: green; }
 

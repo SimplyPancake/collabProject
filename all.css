@@ -2,6 +2,18 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import "https://www.w3schools.com/w3css/4/w3.css";
+.dataCol {
+  text-align: left;
+  color: red;
+  transform: translate(0px, 50px);
+}
+.searchImg {
+  height: 20vh;
+  width: 20vw;
+}
+#navbarUp {
+  transform: translate(0px, -60px)
+}
 body {
   text-align: center;
   -webkit-animation: bgmove 3s infinite;

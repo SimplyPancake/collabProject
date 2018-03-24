@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-
+<?php
+include "dbh.php";
+?>
 <head>
   <title>Video-game Lookup</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -44,7 +46,7 @@
       </div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#home" id="home">Home<i class="fa fa-home"></i></a></li>
-        <li class="dropdown" id="lang-left">
+        <li class="dropdown navbar-right">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language
         <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -58,7 +60,12 @@
           </ul>
         </li>
       </ul>
-      <button type="button" class="btn btn-success" id="search-button-left" onclick="search()"><span>Search for a game!</span></button>
+      <form class="navbar-form navbar-right" role="search" action="search.php" method="POST">
+        <div class="form-group">
+        <input class="form-control" type="text" name="search" />
+        <button class="btn btn-default" type="submit" name="submit-search"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+      </form>
     </div>
   </nav>
   </div>
