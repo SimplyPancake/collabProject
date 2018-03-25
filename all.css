@@ -2,17 +2,29 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import "https://www.w3schools.com/w3css/4/w3.css";
-.dataCol {
-  text-align: left;
-  color: red;
-  transform: translate(0px, 50px);
-}
 .searchImg {
   height: 20vh;
   width: 20vw;
 }
-#navbarUp {
-  transform: translate(0px, -60px)
+form input.form-enter {
+  padding: 6px;
+  margin-top: -2px;
+  font-size: 17px;
+  height: 40px;
+}
+form button.form-submit {
+  transform: translate(-5px, 0px);
+  position: relative;
+  background-color: blue;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  padding: 14px;
+}
+div.data {
+  transform: translate(0px, 40px);
+  background-color: rgba(0, 0, 207, 0.406);
+  color: rgb(0, 0, 255)
 }
 body {
   text-align: center;
@@ -28,29 +40,6 @@ body {
 
 .swal-overlay {
   background-color: rgba(0, 255, 0, 0.4987); }
-
-#search-button-left {
-  transform: translate(300px, 10px);
-  text-align: center;
-  transition: all 0.5s;
-  cursor: pointer; }
-  #search-button-left span {
-    cursor: pointer;
-    display: inline-block;
-    transition: 0.5s; }
-    #search-button-left span:after {
-      content: '\00bb';
-      opacity: 0;
-      top: 0;
-      transition: 0.5s; }
-  #search-button-left:hover span {
-    padding-right: 10px; }
-    #search-button-left:hover span:after {
-      opacity: 1;
-      right: 0; }
-
-#lang-left {
-  transform: translateX(1000px); }
 
 #arabicLang {
   color: grey; }

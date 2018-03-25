@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <?php
 include "dbh.php";
@@ -9,7 +8,6 @@ include "dbh.php";
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="media/VideoGameIco.ico" />
   <link rel="stylesheet" href="collabs.css" />
-  <link rel="stylesheet" href="all.css" />
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
@@ -18,18 +16,12 @@ include "dbh.php";
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <!-- Ads for our servur -->
-  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7450623974730348",
-            enable_page_level_ads: true
-       });
-  </script>
-
 </head>
 
 <body>
-  <nav id="navbar" class="navbar navbar-fixed-top w3-teal">
+  <div id="swal">
+
+  </div>
   <!-- Ads for server in the body -->
   <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
@@ -62,14 +54,18 @@ include "dbh.php";
       </ul>
       <form class="navbar-form navbar-right" role="search" action="search.php" method="POST">
         <div class="form-group">
-        <input class="form-control" type="text" name="search" />
-        <button class="btn btn-default" type="submit" name="submit-search"><i class="glyphicon glyphicon-search"></i></button>
+        <input class="form-control form-enter" type="text" name="search" />
+        <button class="form-submit" class="btn btn-default" type="submit" name="submit-search"><i class="glyphicon glyphicon-search"></i></button>
       </div>
       </form>
     </div>
   </nav>
   </div>
   </div>
+  <div style="transform:translate(0px, 50px)">
+  <h1>You need a pro reference</h1><br />
+  <p>Your soul, pure-heart, and desire of becoming a good gamer will motivate us to help you</p>
+</div>
   <script src="all.js"></script>
 </body>
 
